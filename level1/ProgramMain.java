@@ -1,8 +1,8 @@
-package Level2PracticeQuestion3;
+package PracticeProgram4;
 
 public class ProgramMain {
     public static void main(String[] args) {
-        ProgramCheckPalindromeString pM=new ProgramCheckPalindromeString("aba");
-        pM.isPalindrome();
+        ProgramToHandleMobilePhoneDetails mD=new ProgramToHandleMobilePhoneDetails("Realme","Note 8",36000);
+        mD.Display();
     }
 }
